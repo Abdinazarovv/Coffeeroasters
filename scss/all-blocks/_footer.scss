@@ -1,0 +1,93 @@
+.footer{
+    width: 100%;
+    background-color: #2C343E;
+}
+
+.container-footer{
+    padding: 47px 84px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    display: inline-block;
+    min-width: 236px;
+    height: 26px;
+}
+
+.footer-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav-item{
+    white-space: nowrap;
+}
+
+.footer-list-2{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav-item-2{
+    white-space: nowrap;
+}
+
+.footer-list a{
+    margin: 0;
+    padding: 0;
+    margin: 0 16.5px;
+    text-decoration: none;
+    font-family: Barlow;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+}
+.footer-list a:hover{
+    color: #FEFCF7;
+}
+.footer-list-2 a{
+    margin: 0 12px;
+}
+.fa-facebook-square{
+    color: #FEFCF7;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fa-facebook-square:hover{
+    color: #FDD6BA;
+}
+.fa-twitter{
+    color: #FEFCF7;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fa-twitter:hover{
+    color: #FDD6BA;
+}
+.fa-instagram{
+    color: #FEFCF7;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fa-instagram:hover{
+    color: #FDD6BA;
+}
+
+
+@media only screen and (max-width: 960px){
+    .container-footer{
+        margin: 0 auto;
+        padding: 47px 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2C343E;
+    }
+}
+
