@@ -30,9 +30,7 @@
     color: #333D4B;
 }
 
-.hamburger-link{
-    display: none;
-}
+
 
 @media only screen and (max-width: 580px){
 
@@ -42,13 +40,7 @@
         left: 0;
     }
 
-    .hamburger-link{
-        border: none;
-        width: 40px;
-        height: 40px;
-        background-color: #fff;
-        display: inline-block;
-    }
+
 
     .header-navbar{
         display: none;
